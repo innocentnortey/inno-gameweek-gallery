@@ -1,0 +1,8 @@
+[
+  {"id": "cloud-dragon", "name": "Cloud Dragon", "kind": "Racer", "file": "models/cloud-dragon.glb", "added": "2026-11-03",
+   "note": "Our best champion. Two dragon heads with flower eyes; the cloud body coils behind him."},
+  {"id": "spiral-rider", "name": "Spiral (rider)", "kind": "Racer", "file": "models/spiral-rider.glb", "added": "2026-11-03",
+   "note": "Quincy's new design: utility jumpsuit, the shell is a backpack. Skin came out lighter than the 2D art; to fix."},
+  {"id": "spiral-pod", "name": "Spiral (hover pod)", "kind": "Ride", "file": "models/spiral-pod.glb", "added": "2026-11-03",
+   "note": "The shell transformed into a hover pod. 3D gave it four rear thrusters instead of two."}
+]

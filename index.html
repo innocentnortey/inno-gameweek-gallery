@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#ffd23f">
+<title>Race On Your Own Power: 3D gallery</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+<script type="module" src="https://unpkg.com/@google/model-viewer@3.5.0/dist/model-viewer.min.js"></script>
+<style>
+:root{--paper:#fff6dc;--panel:#fff;--ink:#141218;--soft:#4a4558;--yellow:#ffd23f;--red:#e8414b;--blue:#2b6fe0;--dot:rgba(20,18,24,.09)}
+@media (prefers-color-scheme:dark){:root{--paper:#17152b;--panel:#242140;--ink:#f6efdc;--soft:#c9c2dc;--dot:rgba(246,239,220,.07)}}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{margin:0;background:var(--paper);background-image:radial-gradient(var(--dot) 1.3px,transparent 1.6px);background-size:14px 14px;color:var(--ink);font:17px/1.45 "Comic Neue","Trebuchet MS",system-ui,sans-serif}
+.wrap{max-width:900px;margin:0 auto;padding:0 max(12px,env(safe-area-inset-left)) 40px max(12px,env(safe-area-inset-right))}
+h1,h2{font-family:"Bangers","Impact","Arial Black",sans-serif;letter-spacing:.04em;font-weight:400;margin:0;line-height:1.05}
+header{margin:14px 0 12px;border:4px solid var(--ink);background:var(--yellow);color:#141218;padding:12px 14px;box-shadow:5px 5px 0 var(--ink)}
+header h1{font-size:clamp(30px,8vw,48px)}
+header p{margin:4px 0 0;font-weight:700}
+.tabs{display:flex;gap:8px;overflow-x:auto;padding:4px 2px 10px;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:none;min-height:44px;padding:0 14px;border:3px solid var(--ink);border-radius:999px;background:var(--panel);color:var(--ink);font:700 16px "Comic Neue",sans-serif;cursor:pointer}
+.tab[aria-selected="true"]{background:var(--red);color:#fff}
+.stage{border:4px solid var(--ink);background:#dfe7ee;box-shadow:5px 5px 0 var(--ink);position:relative}
+model-viewer{width:100%;height:min(68vh,620px);background:#dfe7ee;--poster-color:#dfe7ee}
+.bar{position:absolute;left:0;right:0;bottom:0;height:6px;background:rgba(0,0,0,.08)}
+.bar span{display:block;height:100%;width:0;background:var(--red);transition:width .2s}
+.hint{position:absolute;top:8px;left:8px;background:rgba(255,255,255,.85);color:#141218;border:2px solid #141218;border-radius:8px;padding:2px 8px;font-size:13px;font-weight:700}
+.info{margin-top:12px;border:4px solid var(--ink);background:var(--panel);padding:10px 14px;box-shadow:5px 5px 0 var(--ink)}
+.info h2{font-size:clamp(26px,7vw,36px)}
+.meta{color:var(--red);font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:.05em}
+.info p{margin:6px 0 0}
+.views{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.views button{min-height:44px;padding:0 12px;border:3px solid var(--ink);border-radius:10px;background:var(--yellow);color:#141218;font:700 15px "Comic Neue",sans-serif;cursor:pointer}
+footer{margin-top:18px;font-size:13px;color:var(--soft)}
+@media (prefers-reduced-motion:reduce){.bar span{transition:none}}
+</style>
+</head>
+<body>
+<main class="wrap">
+<header><h1>3D GALLERY</h1><p>Race On Your Own Power: every 3D model we make. Drag to spin, pinch to zoom.</p></header>
+<nav class="tabs" id="tabs" role="tablist" aria-label="Models"></nav>
+<div class="stage">
+  <model-viewer id="mv" camera-controls auto-rotate auto-rotate-delay="0" rotation-per-second="25deg" touch-action="pan-y" shadow-intensity="0.6" exposure="1.05" interaction-prompt="none" camera-orbit="20deg 80deg auto" field-of-view="28deg" alt="3D model"></model-viewer>
+  <span class="hint">Drag to spin · pinch to zoom</span>
+  <div class="bar"><span id="bar"></span></div>
+</div>
+<section class="info" aria-live="polite"><div class="meta" id="meta"></div><h2 id="name"></h2><p id="note"></p>
+  <div class="views"><button data-o="0deg 82deg auto">Front</button><button data-o="90deg 82deg auto">Side</button><button data-o="180deg 82deg auto">Back</button><button data-spin>Spin on/off</button></div></section>
+<footer>AI-made models (Meshy), from Quincy's designs. Concept stage, not final art.</footer>
+</main>
+<script>
+(async function(){
+  const mv=document.getElementById('mv'), tabs=document.getElementById('tabs'), bar=document.getElementById('bar');
+  const list=await (await fetch('models.json',{cache:'no-store'})).json();
+  function show(m){
+    tabs.querySelectorAll('.tab').forEach(t=>t.setAttribute('aria-selected',t.dataset.id===m.id?'true':'false'));
+    document.getElementById('meta').textContent=m.kind+' · added '+m.added;
+    document.getElementById('name').textContent=m.name.toUpperCase();
+    document.getElementById('note').textContent=m.note;
+    mv.alt='3D model of '+m.name; bar.style.width='0'; mv.src=m.file+'?v='+m.added;
+    mv.cameraOrbit='20deg 80deg auto';
+    try{history.replaceState(null,'','#'+m.id)}catch(e){}
+  }
+  list.forEach(m=>{const b=document.createElement('button');b.className='tab';b.role='tab';b.dataset.id=m.id;b.textContent=m.name;b.onclick=()=>show(m);tabs.appendChild(b);});
+  mv.addEventListener('progress',e=>{bar.style.width=Math.round(e.detail.totalProgress*100)+'%'});
+  document.querySelectorAll('[data-o]').forEach(b=>b.onclick=()=>{mv.autoRotate=false;mv.cameraOrbit=b.dataset.o});
+  document.querySelector('[data-spin]').onclick=()=>{mv.autoRotate=!mv.autoRotate};
+  const start=list.find(m=>'#'+m.id===location.hash)||list[0]; show(start);
+})();
+</script>
+</body>
+</html>
