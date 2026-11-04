@@ -338,10 +338,10 @@
  {
   "id": "title-art",
   "name": "Title screen art",
-  "status": "waiting",
+  "status": "approved",
   "added": "2026-11-04",
   "credits": 0,
-  "note": "The picture behind the title screen: all four first-game racers race along a glowing golden sky track toward the cliff temple (Cloud Dragon on his cloud, Spiral on his hover pod, Pink Puff flying on all fours, Centaur Bull galloping). The top of the sky is clear for the logo. Checked each racer against the approved art. Two notes: Spiral has purple hair here (his race art) while his front drawing has black hair, so say which is right; and a faint blur sits by Centaur Bull's front fist where an extra tail was painted out.",
+  "note": "The picture behind the title screen: all four first-game racers race along a glowing golden sky track toward the cliff temple (Cloud Dragon on his cloud, Spiral on his hover pod, Pink Puff flying on all fours, Centaur Bull galloping). The top of the sky is clear for the logo. Checked each racer against the approved art. Two notes: Spiral has purple hair here (his race art) while his front drawing has black hair, so say which is right; and a faint blur sits by Centaur Bull's front fist where an extra tail was painted out. Approved by Innocent; Spiral's hair is BLACK (his decision), so Spiral's hair in this picture is being recoloured.",
   "views": [
    [
     "Title art",
@@ -352,7 +352,7 @@
  {
   "id": "logo",
   "name": "Logo",
-  "status": "waiting",
+  "status": "approved",
   "added": "2026-11-04",
   "credits": 0,
   "note": "The game's name as a comic-book wordmark on three lines (RACE ON / YOUR OWN / POWER): glossy yellow-to-orange letters, thick black outline, white outer edge, speed streaks and two small clouds, on a see-through background. Spelling checked letter by letter; readable at 600 and 240 px wide.",
