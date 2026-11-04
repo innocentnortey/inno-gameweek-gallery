@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#ffd23f">
+<title>Decisions to talk about</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#fff6dc;--panel:#fff;--ink:#141218;--soft:#4a4558;--yellow:#ffd23f;--red:#e8414b;--blue:#2b6fe0;--pink:#ff7eb6;--dot:rgba(20,18,24,.09)}
+@media (prefers-color-scheme:dark){:root{--paper:#17152b;--panel:#242140;--ink:#f6efdc;--soft:#c9c2dc;--dot:rgba(246,239,220,.07)}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);background-image:radial-gradient(var(--dot) 1.3px,transparent 1.6px);background-size:14px 14px;color:var(--ink);font:17px/1.45 "Comic Neue","Trebuchet MS",system-ui,sans-serif}
+.wrap{max-width:900px;margin:0 auto;padding:0 max(12px,env(safe-area-inset-left)) 40px max(12px,env(safe-area-inset-right))}
+h1,h2,h3{font-family:"Bangers","Impact","Arial Black",sans-serif;letter-spacing:.04em;font-weight:400;margin:0;line-height:1.05}
+header{margin:14px 0 14px;border:4px solid var(--ink);background:var(--yellow);color:#141218;padding:12px 14px;box-shadow:5px 5px 0 var(--ink)}
+header h1{font-size:clamp(30px,8vw,48px)}
+header p{margin:4px 0 0;font-weight:700}
+.back{display:inline-flex;align-items:center;min-height:44px;margin-top:8px;padding:0 14px;border:3px solid #141218;border-radius:999px;background:#fff;color:#141218;font-weight:700;text-decoration:none}
+.q{margin:0 0 22px;border:4px solid var(--ink);background:var(--panel);box-shadow:5px 5px 0 var(--ink);overflow:hidden}
+.q>h2{background:var(--red);color:#fff;padding:8px 14px;font-size:clamp(24px,6.4vw,34px);border-bottom:4px solid var(--ink)}
+.q .body{padding:12px 14px;display:grid;gap:10px}
+.q p{margin:0}
+.ask{border:3px solid var(--ink);background:#fff4b8;color:#141218;padding:8px 12px;font-weight:700}
+.ask b{font-family:"Bangers","Impact",sans-serif;letter-spacing:.05em;font-weight:400;color:var(--red);margin-right:6px}
+.pics{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr))}
+figure{margin:0;border:3px solid var(--ink);background:var(--panel)}
+figure img{display:block;width:100%;height:auto}
+figcaption{padding:6px 10px;font-family:"Bangers","Impact",sans-serif;letter-spacing:.05em;font-size:19px;border-top:3px solid var(--ink)}
+figcaption small{display:block;font-family:"Comic Neue",sans-serif;letter-spacing:0;font-size:14px;font-weight:700;color:var(--soft)}
+.cycle{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px}
+.cycle div{border:3px solid var(--ink);background:var(--paper);padding:8px;font-weight:700;text-align:center}
+ul{margin:0;padding-left:20px}
+.done{border:3px dashed var(--ink);padding:8px 12px;font-weight:700}
+footer{font-size:13px;color:var(--soft);margin-top:18px}
+footer a{color:var(--blue)}
+</style>
+</head>
+<body>
+<main class="wrap">
+<header><h1>DECISIONS TO TALK ABOUT</h1><p>Creative calls for Innocent and Quincy. Updated November 3, 2026.</p><a class="back" href="./">← Back to the 3D gallery</a></header>
+
+<p class="done">Settled: a multiplayer sky-racing game, no cars, every racer rides in their own way, a rock-paper-scissors power-up on a timer, camera behind the racer. Cloud Dragon rides version B: just the cloud.</p>
+
+<section class="q"><h2>1. THE LOOK</h2><div class="body">
+<p>Same place, two styles. This sets how everything in the game looks. Now you've seen the 3D models, which fits them better?</p>
+<div class="pics">
+<figure><img src="img/look-ink.jpg" alt="Soft comic ink style" loading="lazy"><figcaption>A: SOFT COMIC INK<small>Heavier outlines, hand-drawn feel</small></figcaption></figure>
+<figure><img src="img/look-glossy.jpg" alt="Bright and glossy style" loading="lazy"><figcaption>B: BRIGHT AND GLOSSY<small>Clean shapes, glowing track, more game-like</small></figcaption></figure>
+</div>
+<p class="ask"><b>TALK ABOUT:</b> A or B? Or a mix (B's brightness with A's outlines)?</p>
+</div></section>
+
+<section class="q"><h2>2. THE TWO STAGES</h2><div class="body">
+<p>The game needs two tracks. Here's the shortlist.</p>
+<div class="pics">
+<figure><img src="img/stage-mirror-flat.jpg" alt="Mirror Flat track" loading="lazy"><figcaption>MIRROR FLAT<small>A flat track that reflects the sky</small></figcaption></figure>
+<figure><img src="img/stage-gate-water.jpg" alt="Gate Over Water track" loading="lazy"><figcaption>GATE OVER WATER<small>A red gate on calm water is the start line</small></figcaption></figure>
+<figure><img src="img/stage-cliff-temple.jpg" alt="Cliff Temple track" loading="lazy"><figcaption>CLIFF TEMPLE<small>A temple in a cliff with a checkpoint arch</small></figcaption></figure>
+</div>
+<p class="ask"><b>TALK ABOUT:</b> Which two? They should feel different from each other.</p>
+</div></section>
+
+<section class="q"><h2>3. ROCK, PAPER, SCISSORS</h2><div class="body">
+<p>Every so often both racers secretly pick one of three moves. For the guessing to matter, each pick has to beat one and lose to one. Here's one way:</p>
+<div class="cycle"><div>BOOST beats TRAP</div><div>TRAP beats SHIELD</div><div>SHIELD beats BOOST</div></div>
+<ul><li>What are the three moves called, and what do they look like?</li><li>Does each racer get their own version (Cloud Dragon's boost is a gust, Spiral's is a thruster burst)?</li></ul>
+<p class="ask"><b>TALK ABOUT:</b> The three moves, their names and their icons.</p>
+</div></section>
+
+<section class="q"><h2>4. SOUND</h2><div class="body">
+<p>Nothing has been made for sound yet. Some questions to start with:</p>
+<ul><li>What does each track sound like (mood, instruments)?</li><li>What does each racer's ride sound like (cloud whoosh, pod hum, puff pops, hoof thuds)?</li><li>Do racers shout their move? An announcer for "Ready… go!" and "Final lap"?</li></ul>
+<p class="ask"><b>TALK ABOUT:</b> The feel of the music and two or three must-have sounds.</p>
+</div></section>
+
+<section class="q"><h2>5. NEXT RACERS FOR 3D</h2><div class="body">
+<p>These are next in line for 3D models. Anything to change before they're built?</p>
+<div class="pics">
+<figure><img src="img/next-cloud-dragon-riding.jpg" alt="Cloud Dragon surfing his cloud" loading="lazy"><figcaption>CLOUD DRAGON, RIDING<small>Surfs his own cloud (version B)</small></figcaption></figure>
+<figure><img src="img/next-pink-puff.jpg" alt="Pink Puff levitating" loading="lazy"><figcaption>PINK PUFF<small>Levitates on all fours, grasping puffs</small></figcaption></figure>
+<figure><img src="img/next-centaur-bull.jpg" alt="Centaur Bull" loading="lazy"><figcaption>CENTAUR BULL<small>Small wings, hooves land on stars</small></figcaption></figure>
+</div>
+<p class="ask"><b>TALK ABOUT:</b> Any changes before these go to 3D?</p>
+</div></section>
+
+<footer>Images are AI-generated concept art. Stage images started from openly licensed photos: Mirror Flat from "View of Pilot Peak, Nevada" by Famartin (<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>); Gate Over Water from "Itsukushima Shrine torii gate" by Mustang Joe (CC0); Cliff Temple from "Tiger's Nest (Paro Taktsang)" by Nagarjun (<a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>); the look samples from "Islands in the sea of clouds, Huangshan" by Dimitry B (<a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>).</footer>
+</main>
+</body>
+</html>
