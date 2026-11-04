@@ -1,5 +1,28 @@
 [
-  {"id": "cloud-dragon-riding-b", "name": "Cloud Dragon, riding (version B)", "status": "waiting", "added": "2026-11-04", "credits": 35,
-   "note": "One posed model: him on a compact cloud board, the tail curling behind at knee height so the behind-the-racer camera still sees him. The 2D source has a taller coil; we shortened it for the game camera.",
-   "views": [["2D source", "review/cloud-dragon-riding-b/source.jpg"], ["Front", "review/cloud-dragon-riding-b/front.jpg"], ["Side", "review/cloud-dragon-riding-b/side.jpg"], ["Back", "review/cloud-dragon-riding-b/back.jpg"]]}
+ {
+  "id": "cloud-dragon-riding-b",
+  "name": "Cloud Dragon, riding (version B)",
+  "status": "waiting",
+  "added": "2026-11-04",
+  "credits": 35,
+  "note": "Version 2. One posed model: the cloud is one unbroken piece, like the drawing: it starts as his dragon afro, runs down behind his left shoulder, across behind his legs, becomes the cloud he stands on, and ends in a curled tail. Claude checked all three views against the drawing (one cloud, same crouch in every view, skin tone, hearts, belt, boots). From behind, the cloud drapes across his back.",
+  "views": [
+   [
+    "2D source",
+    "review/cloud-dragon-riding-b/source.jpg?v=2"
+   ],
+   [
+    "Front",
+    "review/cloud-dragon-riding-b/front.jpg?v=2"
+   ],
+   [
+    "Side",
+    "review/cloud-dragon-riding-b/side.jpg?v=2"
+   ],
+   [
+    "Back",
+    "review/cloud-dragon-riding-b/back.jpg?v=2"
+   ]
+  ]
+ }
 ]
