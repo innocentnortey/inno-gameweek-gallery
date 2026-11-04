@@ -39,12 +39,12 @@ footer{font-size:13px;color:var(--soft);margin-top:18px}
 <header><h1>REVIEW QUEUE</h1><p>Turnaround images waiting for a yes before they go to 3D. This page is kept up to date.</p><a class="back" href="./">← 3D gallery</a></header>
 <p class="how">Each card shows the 2D art and the front, side and back views. Tell Innocent yes or no, or what to change. Only approved cards go to Meshy (3D).</p>
 <section id="list" aria-live="polite"><p class="empty">Loading the queue…</p></section>
-<footer>Statuses: <b>Waiting for your yes</b> · <b>Approved, going to 3D</b> · <b>Redo requested</b> · <b>In the 3D gallery</b>.</footer>
+<footer>Statuses: <b>Waiting for your yes</b> · <b>For critique only</b> (AI concepts: comment, but they don't go to 3D) · <b>Approved, going to 3D</b> · <b>Redo requested</b> · <b>In the 3D gallery</b>.</footer>
 </main>
 <script>
 (async function(){
   const list=document.getElementById('list');
-  const LABEL={waiting:'Waiting for your yes',approved:'Approved, going to 3D',redo:'Redo requested',done:'In the 3D gallery'};
+  const LABEL={waiting:'Waiting for your yes',critique:'For critique only (not going to 3D)',approved:'Approved, going to 3D',redo:'Redo requested',done:'In the 3D gallery'};
   try{
     const items=await (await fetch('review.json',{cache:'no-store'})).json();
     const open=items.filter(i=>i.status!=='done');
