@@ -8,6 +8,14 @@
   "note": "Crouched on her own rocket inline skates: six hair buns with orange ties, striped puffer jacket, cargo pants and pink-and-orange skates with all wheels intact. Her skin and jacket read a little lighter and paler than the drawing; the game can tint them back."
  },
  {
+  "id": "wind-ball-rider",
+  "name": "Wind-Ball Rider",
+  "kind": "Racer",
+  "file": "models/wind-ball-rider.glb",
+  "added": "2026-11-04",
+  "note": "Crouched barefoot on her teal-and-white swirl wind ball, arms out for balance: two hair puffs with yellow ties, teal wrap top and striped sash, gold wristbands. The ball is one solid sphere; in the game it rolls under her. Rebuilt the same day without the pose setting that had stood her up in a T-pose."
+ },
+ {
   "id": "cloud-dragon-riding-b",
   "name": "Cloud Dragon (riding)",
   "kind": "Racer",
