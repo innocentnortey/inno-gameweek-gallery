@@ -28,7 +28,7 @@
  {
   "id": "pink-puff",
   "name": "Pink Puff",
-  "status": "waiting",
+  "status": "approved",
   "added": "2026-11-04",
   "credits": 35,
   "note": "A static posed model of Pink Puff levitating on all fours: body level, arms reaching down with open clawed hands, knees bent with shins pointing back. The puffs he grabs are left out because the game draws them as particles. Checked every view against the 2D art and each other (same pose, caramel golden-brown skin, no loose pieces). Question for you: the two approved drawings disagree on his top (bare-chested front vs a fluffy pink top on the back drawing); these views follow the bare-chested front.",
@@ -54,7 +54,7 @@
  {
   "id": "centaur-bull",
   "name": "Centaur Bull",
-  "status": "waiting",
+  "status": "approved",
   "added": "2026-11-04",
   "credits": 35,
   "note": "A static posed model of the Centaur Bull mid-gallop on his own four legs: his right front leg is tucked up and the other three hooves stand on one flat line, so the model has a level base. The glowing stars under his hooves are left out because the game draws them in code. His skin is a little deeper caramel than the 2D art because 3D textures come out lighter. The cheek star, star earring and haunch star sit on his left side, as in the front drawing (the back drawing puts the cheek star on the other side and gives him a cream belly; the model does not copy those). Four legs and the same raised leg checked in every view; the wings stay attached to the hoodie.",
@@ -106,10 +106,10 @@
  {
   "id": "spirit-beast-rider",
   "name": "Spirit-Beast Rider",
-  "status": "critique",
+  "status": "redo",
   "added": "2026-11-04",
   "credits": 35,
-  "note": "One posed model of the girl alone, in a running stride; her golden cheetah is its own model, because in the drawing she runs beside it rather than riding it. The art only shows her from behind, so her front is invented: her face and smile, the open zip jacket over a white tee, and the totem pendant moved from her hip to her chest. Checked every view against the drawing and the other views (same pose, warm medium-brown skin, locs with gold cuffs and a green wrap, the gold stripe on the jacket, cargo pockets, boots).",
+  "note": "Redo requested by Innocent (2026-11-04): she should RIDE the spirit cheetah, not run beside it, and the cheetah needs a spirit look, not a real cheetah's coat. New views coming; these are the old ones.",
   "views": [
    [
     "2D source",
@@ -126,32 +126,6 @@
    [
     "Back",
     "review/spirit-beast-rider/back.jpg?v=1"
-   ]
-  ]
- },
- {
-  "id": "spirit-beast-cheetah",
-  "name": "Spirit-Beast Rider (golden spirit cheetah)",
-  "status": "critique",
-  "added": "2026-11-04",
-  "credits": 35,
-  "note": "The Spirit-Beast Rider's cheetah as its own posed model, running beside her. In the drawing it is made of glowing light; here its body is solid gold with amber ring spots, and the glow, sparks and light trails are left for the game code. Its face, chest and back are invented because the art only shows its side. Checked that all three views show one animal in the same stride, with the same spots, tear marks and curled tail (the tail tip curls the other way in the back view). Claude's review: the front and back views look down on the cheetah from above instead of at eye level; if it is ever picked for 3D, those two views get redone first.",
-  "views": [
-   [
-    "2D source",
-    "review/spirit-beast-cheetah/source.jpg?v=1"
-   ],
-   [
-    "Front",
-    "review/spirit-beast-cheetah/front.jpg?v=1"
-   ],
-   [
-    "Side",
-    "review/spirit-beast-cheetah/side.jpg?v=1"
-   ],
-   [
-    "Back",
-    "review/spirit-beast-cheetah/back.jpg?v=1"
    ]
   ]
  },
