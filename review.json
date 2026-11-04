@@ -180,5 +180,23 @@
     "review/wind-ball-rider/back.jpg?v=1"
    ]
   ]
+ },
+ {
+  "id": "icons-rps",
+  "name": "Rock, paper and scissors icons",
+  "status": "waiting",
+  "added": "2026-11-04",
+  "credits": 0,
+  "note": "The three picks for the in-race rock-paper-scissors timer at the top right of the screen: an orange-red stone, a blue sheet of paper with a folded corner, and scissors with green handles. Checked at 64 and 128 px on dark and light backgrounds: all three read clearly, with clean transparent edges. They are simpler than the racer art on purpose (icons have to read small) but keep its bold outlines and glossy colours.",
+  "views": [
+   [
+    "Set",
+    "review/icons-rps/set.png?v=1"
+   ],
+   [
+    "At HUD size",
+    "review/icons-rps/hud-size.png?v=1"
+   ]
+  ]
  }
 ]
