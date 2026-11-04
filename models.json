@@ -46,5 +46,13 @@
   "file": "models/spiral-pod.glb",
   "added": "2026-11-03",
   "note": "The shell transformed into a hover pod. 3D gave it four rear thrusters instead of two."
+ },
+ {
+  "id": "cliff-temple",
+  "name": "Cliff Temple",
+  "kind": "Landmark",
+  "file": "models/cliff-temple.glb",
+  "added": "2026-11-04",
+  "note": "The Cliff Temple landmark: white walls, crimson-and-gold roofs and two golden pagoda spires on a flat rock base. It stands beside the road on the Cliff Temple stage."
  }
 ]
