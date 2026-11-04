@@ -28,7 +28,7 @@
  {
   "id": "pink-puff",
   "name": "Pink Puff",
-  "status": "approved",
+  "status": "done",
   "added": "2026-11-04",
   "credits": 35,
   "note": "A static posed model of Pink Puff levitating on all fours: body level, arms reaching down with open clawed hands, knees bent with shins pointing back. The puffs he grabs are left out because the game draws them as particles. Checked every view against the 2D art and each other (same pose, caramel golden-brown skin, no loose pieces). Question for you: the two approved drawings disagree on his top (bare-chested front vs a fluffy pink top on the back drawing); these views follow the bare-chested front.",
@@ -54,7 +54,7 @@
  {
   "id": "centaur-bull",
   "name": "Centaur Bull",
-  "status": "approved",
+  "status": "done",
   "added": "2026-11-04",
   "credits": 35,
   "note": "A static posed model of the Centaur Bull mid-gallop on his own four legs: his right front leg is tucked up and the other three hooves stand on one flat line, so the model has a level base. The glowing stars under his hooves are left out because the game draws them in code. His skin is a little deeper caramel than the 2D art because 3D textures come out lighter. The cheek star, star earring and haunch star sit on his left side, as in the front drawing (the back drawing puts the cheek star on the other side and gives him a cream belly; the model does not copy those). Four legs and the same raised leg checked in every view; the wings stay attached to the hoodie.",

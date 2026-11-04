@@ -36,8 +36,8 @@ footer{font-size:13px;color:var(--soft);margin-top:18px}
 </head>
 <body>
 <main class="wrap">
-<header><h1>REVIEW QUEUE</h1><p>Turnaround images waiting for a yes before they go to 3D. This page is kept up to date.</p><a class="back" href="./">← 3D gallery</a></header>
-<p class="how">Each card shows the 2D art and the front, side and back views. Tell Innocent yes or no, or what to change. Only approved cards go to Meshy (3D).</p>
+<header><h1>REVIEW QUEUE</h1><p>Racers, stage art and icons waiting for your yes or your notes. Turnarounds go to 3D only after a yes. This page is kept up to date.</p><a class="back" href="./">← 3D gallery</a></header>
+<p class="how">Each card shows the source art and what we made from it. Tell Innocent yes or no, or what to change. Only approved turnarounds go to Meshy (3D).</p>
 <section id="list" aria-live="polite"><p class="empty">Loading the queue…</p></section>
 <footer>Statuses: <b>Waiting for your yes</b> · <b>For critique only</b> (AI concepts: comment, but they don't go to 3D) · <b>Approved, going to 3D</b> · <b>Redo requested</b> · <b>In the 3D gallery</b>.</footer>
 </main>
@@ -56,7 +56,7 @@ footer{font-size:13px;color:var(--soft);margin-top:18px}
       const t=document.createElement('span');t.className='tag';t.textContent=LABEL[i.status]||i.status;h.append(t);
       const b=document.createElement('div');b.className='body';
       const p=document.createElement('p');p.textContent=i.note;
-      const m=document.createElement('p');m.className='meta';m.textContent='Added '+i.added+' · 3D costs '+i.credits+' credits';
+      const m=document.createElement('p');m.className='meta';m.textContent='Added '+i.added+(i.credits?' · 3D costs '+i.credits+' credits':' · no 3D credits (image only)');
       const g=document.createElement('div');g.className='pics';
       i.views.forEach(([l,src])=>{const f=document.createElement('figure'),im=document.createElement('img'),c=document.createElement('figcaption');
         im.src=src;im.alt=i.name+', '+l+' view';im.loading='lazy';c.textContent=l;f.append(im,c);g.append(f);});

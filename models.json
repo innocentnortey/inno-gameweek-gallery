@@ -8,6 +8,22 @@
   "note": "The racing model: a surfing crouch on one connected cloud that runs from his dragon afro down his back into the board and curled tail. From the racing camera behind him, the cloud covers most of his back."
  },
  {
+  "id": "centaur-bull",
+  "name": "Centaur Bull",
+  "kind": "Racer",
+  "file": "models/centaur-bull.glb",
+  "added": "2026-11-04",
+  "note": "Galloping on his own four legs with the right front leg raised, wings on his hoodie. Known flaw being fixed: an extra star on the back of his left haunch and a faint one on his right."
+ },
+ {
+  "id": "pink-puff",
+  "name": "Pink Puff",
+  "kind": "Racer",
+  "file": "models/pink-puff.glb",
+  "added": "2026-11-04",
+  "note": "Levitating on all fours with his pink afro, glasses, fluffy arm and shin bands and baggy pink shorts. In this viewer his skin looks more golden than the drawing; the game will tint it back."
+ },
+ {
   "id": "cloud-dragon",
   "name": "Cloud Dragon",
   "kind": "Racer",
