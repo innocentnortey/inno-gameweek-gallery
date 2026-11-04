@@ -268,5 +268,71 @@
     "review/sky-mirror-flat/seam.jpg?v=1"
    ]
   ]
+ },
+ {
+  "id": "tex-road-cliff-temple",
+  "name": "Cliff Temple road surface",
+  "status": "waiting",
+  "added": "2026-11-04",
+  "credits": 0,
+  "note": "The Cliff Temple road from straight above: slate-grey asphalt with small grains, repeating along the road (lane lines are drawn by the game). Tiles with no seams. Claude's review: a little darker and more purple than the stage road, and up close the grains read a bit like stars; a colour tint in the game can fix both.",
+  "views": [
+   [
+    "2D source",
+    "review/tex-road-cliff-temple/source.jpg?v=1"
+   ],
+   [
+    "Texture",
+    "review/tex-road-cliff-temple/texture.jpg?v=1"
+   ],
+   [
+    "Tiled 3\u00d73",
+    "review/tex-road-cliff-temple/tiled.jpg?v=1"
+   ]
+  ]
+ },
+ {
+  "id": "tex-road-mirror-flat",
+  "name": "Mirror Flat road surface",
+  "status": "waiting",
+  "added": "2026-11-04",
+  "credits": 0,
+  "note": "The Mirror Flat road from straight above: polished slate-lavender with a soft brushed shine and tiny sparkles, darker than the white mirror ground so the road stands out (glowing lane lines and boost pads are drawn by the game). Tiles with no seams. The game rotates it so the shine runs along the road rather than reading as rain.",
+  "views": [
+   [
+    "2D source",
+    "review/tex-road-mirror-flat/source.jpg?v=1"
+   ],
+   [
+    "Texture",
+    "review/tex-road-mirror-flat/texture.jpg?v=1"
+   ],
+   [
+    "Tiled 3\u00d73",
+    "review/tex-road-mirror-flat/tiled.jpg?v=1"
+   ]
+  ]
+ },
+ {
+  "id": "tex-rock-cliff",
+  "name": "Cliff Temple rock wall",
+  "status": "waiting",
+  "added": "2026-11-04",
+  "credits": 0,
+  "note": "Rock for the code-built cliffs of Cliff Temple: rounded tan-grey slabs with dark cracks and bright green moss, in the comic-book style of the stage art. Tiles cleanly, but the repeat is visible in the 3\u00d73 view, so the cliffs use it at a large size. A little warmer than the greyer stage cliffs; a tint can match it.",
+  "views": [
+   [
+    "2D source",
+    "review/tex-rock-cliff/source.jpg?v=1"
+   ],
+   [
+    "Texture",
+    "review/tex-rock-cliff/texture.jpg?v=1"
+   ],
+   [
+    "Tiled 3\u00d73",
+    "review/tex-rock-cliff/tiled.jpg?v=1"
+   ]
+  ]
  }
 ]
