@@ -106,26 +106,26 @@
  {
   "id": "spirit-beast-rider",
   "name": "Spirit-Beast Rider",
-  "status": "redo",
+  "status": "critique",
   "added": "2026-11-04",
   "credits": 35,
-  "note": "Redo requested by Innocent (2026-11-04): she should RIDE the spirit cheetah, not run beside it, and the cheetah needs a spirit look, not a real cheetah's coat. New views coming; these are the old ones.",
+  "note": "Redone at Innocent's request: she now rides the golden spirit cheetah like a jockey, leaning over its shoulders with both hands on a gold collar and her boots tucked against its sides. The cheetah is a glowing gold-to-white spirit with swirling markings, glowing eyes and flame tips on its ears, tail and paws (loose sparks and light trails come from game code). Her look is unchanged. Claude's review: without its spots and the dark tear lines on its face, the beast reads more like a lioness than a cheetah; say if it should get cheetah tear lines and spirit-light spots back.",
   "views": [
    [
     "2D source",
-    "review/spirit-beast-rider/source.jpg?v=1"
+    "review/spirit-beast-rider/source.jpg?v=2"
    ],
    [
     "Front",
-    "review/spirit-beast-rider/front.jpg?v=1"
+    "review/spirit-beast-rider/front.jpg?v=2"
    ],
    [
     "Side",
-    "review/spirit-beast-rider/side.jpg?v=1"
+    "review/spirit-beast-rider/side.jpg?v=2"
    ],
    [
     "Back",
-    "review/spirit-beast-rider/back.jpg?v=1"
+    "review/spirit-beast-rider/back.jpg?v=2"
    ]
   ]
  },
