@@ -80,10 +80,10 @@
  {
   "id": "rocket-skate-rider",
   "name": "Rocket-Skate Rider",
-  "status": "critique",
+  "status": "approved",
   "added": "2026-11-04",
   "credits": 35,
-  "note": "A young skater in a low racing crouch on her own orange-and-magenta rocket skates; the flames are left out because the game draws them in code. Built from the newer concept: oversized orange jacket with a magenta chest stripe, baggy tan cargo pants, bantu knots with orange ties. The concept only shows her from behind, so the front was made up: face looking ahead, a zipped jacket, small gold hoops, a rocket nozzle on each heel, and feet side by side so every view shows the same pose. Checked all three views against the concept and each other. Quincy asked for a different design for this rider (2026-11-04); it stays in critique until he says what should change.",
+  "note": "A young skater in a low racing crouch on her own orange-and-magenta rocket skates; the flames are left out because the game draws them in code. Built from the newer concept: oversized orange jacket with a magenta chest stripe, baggy tan cargo pants, bantu knots with orange ties. The concept only shows her from behind, so the front was made up: face looking ahead, a zipped jacket, small gold hoops, a rocket nozzle on each heel, and feet side by side so every view shows the same pose. Checked all three views against the concept and each other. Quincy asked for a different design for this rider (2026-11-04); it stays in critique until he says what should change. Approved for 3D by Innocent 2026-11-04 (\"lets add the skater girl\", \"lets add wind ball rider aswell\"); Rocket-Skate built from the current design while Quincy's redesign answer is pending.",
   "views": [
    [
     "2D source",
@@ -158,10 +158,10 @@
  {
   "id": "wind-ball-rider",
   "name": "Wind-Ball Rider",
-  "status": "critique",
+  "status": "approved",
   "added": "2026-11-04",
   "credits": 35,
-  "note": "One posed model of the girl crouching barefoot on top of her wind ball: a single solid sphere with a teal and white swirl painted on it, her feet touching its top in every view. The loose wind rings in the art are left out because the game draws them in code. The art only shows her from behind, so her face, the front of her cross-wrap top and the knotted sash on her left hip are invented. Known flaw: in the side view her arms sweep slightly backward instead of straight out to the sides (best of three tries).",
+  "note": "One posed model of the girl crouching barefoot on top of her wind ball: a single solid sphere with a teal and white swirl painted on it, her feet touching its top in every view. The loose wind rings in the art are left out because the game draws them in code. The art only shows her from behind, so her face, the front of her cross-wrap top and the knotted sash on her left hip are invented. Known flaw: in the side view her arms sweep slightly backward instead of straight out to the sides (best of three tries). Approved for 3D by Innocent 2026-11-04 (\"lets add the skater girl\", \"lets add wind ball rider aswell\"); Rocket-Skate built from the current design while Quincy's redesign answer is pending.",
   "views": [
    [
     "2D source",
@@ -286,7 +286,7 @@
     "review/tex-road-cliff-temple/texture.jpg?v=1"
    ],
    [
-    "Tiled 3\u00d73",
+    "Tiled 3×3",
     "review/tex-road-cliff-temple/tiled.jpg?v=1"
    ]
   ]
@@ -308,7 +308,7 @@
     "review/tex-road-mirror-flat/texture.jpg?v=1"
    ],
    [
-    "Tiled 3\u00d73",
+    "Tiled 3×3",
     "review/tex-road-mirror-flat/tiled.jpg?v=1"
    ]
   ]
@@ -319,7 +319,7 @@
   "status": "approved",
   "added": "2026-11-04",
   "credits": 0,
-  "note": "Rock for the code-built cliffs of Cliff Temple: rounded tan-grey slabs with dark cracks and bright green moss, in the comic-book style of the stage art. Tiles cleanly, but the repeat is visible in the 3\u00d73 view, so the cliffs use it at a large size. A little warmer than the greyer stage cliffs; a tint can match it.",
+  "note": "Rock for the code-built cliffs of Cliff Temple: rounded tan-grey slabs with dark cracks and bright green moss, in the comic-book style of the stage art. Tiles cleanly, but the repeat is visible in the 3×3 view, so the cliffs use it at a large size. A little warmer than the greyer stage cliffs; a tint can match it.",
   "views": [
    [
     "2D source",
@@ -330,7 +330,7 @@
     "review/tex-rock-cliff/texture.jpg?v=1"
    ],
    [
-    "Tiled 3\u00d73",
+    "Tiled 3×3",
     "review/tex-rock-cliff/tiled.jpg?v=1"
    ]
   ]
