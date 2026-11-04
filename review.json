@@ -80,7 +80,7 @@
  {
   "id": "rocket-skate-rider",
   "name": "Rocket-Skate Rider",
-  "status": "approved",
+  "status": "done",
   "added": "2026-11-04",
   "credits": 35,
   "note": "A young skater in a low racing crouch on her own orange-and-magenta rocket skates; the flames are left out because the game draws them in code. Built from the newer concept: oversized orange jacket with a magenta chest stripe, baggy tan cargo pants, bantu knots with orange ties. The concept only shows her from behind, so the front was made up: face looking ahead, a zipped jacket, small gold hoops, a rocket nozzle on each heel, and feet side by side so every view shows the same pose. Checked all three views against the concept and each other. Quincy asked for a different design for this rider (2026-11-04); it stays in critique until he says what should change. Approved for 3D by Innocent 2026-11-04 (\"lets add the skater girl\", \"lets add wind ball rider aswell\"); Rocket-Skate built from the current design while Quincy's redesign answer is pending.",
@@ -132,10 +132,10 @@
  {
   "id": "cloud-rider",
   "name": "Cloud Rider",
-  "status": "critique",
+  "status": "dropped",
   "added": "2026-11-04",
   "credits": 35,
-  "note": "One posed model: the racer crouched on a solid, comet-shaped cloud board (fat at the front under his sneakers, tapering behind into a curled tail); the long wispy trail in the art is left for code. The art only shows him from behind, so the front is invented: he looks straight ahead, both arms spread evenly, and the board's shape is new. Question for you: he reads close to the Cloud Dragon (bare chest, cloud afro, heart pants, cloud ride). The dark storm afro, blue pants, sneakers and separate board tell them apart up close, but from the chase camera the two may look alike.",
+  "note": "One posed model: the racer crouched on a solid, comet-shaped cloud board (fat at the front under his sneakers, tapering behind into a curled tail); the long wispy trail in the art is left for code. The art only shows him from behind, so the front is invented: he looks straight ahead, both arms spread evenly, and the board's shape is new. Question for you: he reads close to the Cloud Dragon (bare chest, cloud afro, heart pants, cloud ride). The dark storm afro, blue pants, sneakers and separate board tell them apart up close, but from the chase camera the two may look alike. Dropped 2026-11-04: Quincy said it is not needed.",
   "views": [
    [
     "2D source",

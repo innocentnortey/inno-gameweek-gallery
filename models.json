@@ -1,5 +1,13 @@
 [
  {
+  "id": "rocket-skate-rider",
+  "name": "Rocket-Skate Rider",
+  "kind": "Racer",
+  "file": "models/rocket-skate-rider.glb",
+  "added": "2026-11-04",
+  "note": "Crouched on her own rocket inline skates: six hair buns with orange ties, striped puffer jacket, cargo pants and pink-and-orange skates with all wheels intact. Her skin and jacket read a little lighter and paler than the drawing; the game can tint them back."
+ },
+ {
   "id": "cloud-dragon-riding-b",
   "name": "Cloud Dragon (riding)",
   "kind": "Racer",

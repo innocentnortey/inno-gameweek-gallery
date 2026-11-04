@@ -45,10 +45,10 @@ footer{font-size:13px;color:var(--soft);margin-top:18px}
 <script>
 (async function(){
   const list=document.getElementById('list');
-  const LABEL={waiting:'Waiting for your yes',critique:'For critique only (not going to 3D)',approved:'Approved, going to 3D',redo:'Redo requested',done:'In the 3D gallery'};
+  const LABEL={waiting:'Waiting for your yes',critique:'For critique only (not going to 3D)',approved:'Approved, going to 3D',redo:'Redo requested',done:'In the 3D gallery',dropped:'Dropped (not in the game)'};
   try{
     const items=await (await fetch('review.json',{cache:'no-store'})).json();
-    const open=items.filter(i=>i.status!=='done');
+    const open=items.filter(i=>i.status!=='done'&&i.status!=='dropped');
     list.textContent='';
     if(!open.length){list.innerHTML='<p class="empty">The queue is empty: everything so far is in the 3D gallery. New turnarounds appear here before any 3D credits are spent.</p>';return;}
     open.forEach(i=>{
