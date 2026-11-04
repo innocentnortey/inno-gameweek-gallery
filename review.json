@@ -224,5 +224,49 @@
     "review/cliff-temple/back.jpg?v=1"
    ]
   ]
+ },
+ {
+  "id": "sky-cliff-temple",
+  "name": "Cliff Temple sky backdrop",
+  "status": "waiting",
+  "added": "2026-11-04",
+  "credits": 0,
+  "note": "A wide 360-degree sky for the Cliff Temple track: blue sky, big clouds, distant green cliffs and a sea of clouds, with no temple (that is a separate 3D model). It wraps around the track behind the scenery, and the bottom fades to pale blue for the code-built cloud sea to meet. Checked: the right edge joins the left with no visible line (Seam check), the horizon sits a little below the middle, no road, people or text.",
+  "views": [
+   [
+    "2D source",
+    "review/sky-cliff-temple/source.jpg?v=1"
+   ],
+   [
+    "Panorama",
+    "review/sky-cliff-temple/panorama.jpg?v=1"
+   ],
+   [
+    "Seam check",
+    "review/sky-cliff-temple/seam.jpg?v=1"
+   ]
+  ]
+ },
+ {
+  "id": "sky-mirror-flat",
+  "name": "Mirror Flat sky and mountains",
+  "status": "waiting",
+  "added": "2026-11-04",
+  "credits": 0,
+  "note": "A wide 360-degree sky for the Mirror Flat track: blue sky, peach-lit clouds and the pink and tan mountain range all the way around. The mountains stop at a clean straight horizon; below it is a plain band, because the mirror ground is built in code. Checked: seamless wrap (Seam check), horizon a little below the middle, no road, signs, people or text.",
+  "views": [
+   [
+    "2D source",
+    "review/sky-mirror-flat/source.jpg?v=1"
+   ],
+   [
+    "Panorama",
+    "review/sky-mirror-flat/panorama.jpg?v=1"
+   ],
+   [
+    "Seam check",
+    "review/sky-mirror-flat/seam.jpg?v=1"
+   ]
+  ]
  }
 ]
