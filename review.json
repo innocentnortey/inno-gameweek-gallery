@@ -198,5 +198,31 @@
     "review/icons-rps/hud-size.png?v=1"
    ]
   ]
+ },
+ {
+  "id": "cliff-temple",
+  "name": "Cliff Temple (landmark)",
+  "status": "waiting",
+  "added": "2026-11-04",
+  "credits": 35,
+  "note": "The white cliff temple from the Cliff Temple stage art, as one compact model to stand beside the road: just the building on a flat-bottomed rock base, with no cliff, trees or flags (those come from code and the sky backdrop). White walls, a maroon band with gold discs, crimson roofs with gold edges, and two golden pagoda tops that stand out from a distance. Checked that front, side and back show the same building; the back mirrors the front.",
+  "views": [
+   [
+    "2D source",
+    "review/cliff-temple/source.jpg?v=1"
+   ],
+   [
+    "Front",
+    "review/cliff-temple/front.jpg?v=1"
+   ],
+   [
+    "Side",
+    "review/cliff-temple/side.jpg?v=1"
+   ],
+   [
+    "Back",
+    "review/cliff-temple/back.jpg?v=1"
+   ]
+  ]
  }
 ]
