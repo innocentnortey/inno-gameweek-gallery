@@ -184,10 +184,10 @@
  {
   "id": "icons-rps",
   "name": "Rock, paper and scissors icons",
-  "status": "waiting",
+  "status": "approved",
   "added": "2026-11-04",
   "credits": 0,
-  "note": "The three picks for the in-race rock-paper-scissors timer at the top right of the screen: an orange-red stone, a blue sheet of paper with a folded corner, and scissors with green handles. Checked at 64 and 128 px on dark and light backgrounds: all three read clearly, with clean transparent edges. They are simpler than the racer art on purpose (icons have to read small) but keep its bold outlines and glossy colours.",
+  "note": "The three picks for the in-race rock-paper-scissors timer at the top right of the screen: an orange-red stone, a blue sheet of paper with a folded corner, and scissors with green handles. Checked at 64 and 128 px on dark and light backgrounds: all three read clearly, with clean transparent edges. They are simpler than the racer art on purpose (icons have to read small) but keep its bold outlines and glossy colours. Innocent, 2026-11-04: kept for now; the set may still change.",
   "views": [
    [
     "Set",
@@ -202,7 +202,7 @@
  {
   "id": "cliff-temple",
   "name": "Cliff Temple (landmark)",
-  "status": "waiting",
+  "status": "approved",
   "added": "2026-11-04",
   "credits": 35,
   "note": "The white cliff temple from the Cliff Temple stage art, as one compact model to stand beside the road: just the building on a flat-bottomed rock base, with no cliff, trees or flags (those come from code and the sky backdrop). White walls, a maroon band with gold discs, crimson roofs with gold edges, and two golden pagoda tops that stand out from a distance. Checked that front, side and back show the same building; the back mirrors the front.",
@@ -272,7 +272,7 @@
  {
   "id": "tex-road-cliff-temple",
   "name": "Cliff Temple road surface",
-  "status": "waiting",
+  "status": "approved",
   "added": "2026-11-04",
   "credits": 0,
   "note": "The Cliff Temple road from straight above: slate-grey asphalt with small grains, repeating along the road (lane lines are drawn by the game). Tiles with no seams. Claude's review: a little darker and more purple than the stage road, and up close the grains read a bit like stars; a colour tint in the game can fix both.",
@@ -294,7 +294,7 @@
  {
   "id": "tex-road-mirror-flat",
   "name": "Mirror Flat road surface",
-  "status": "waiting",
+  "status": "approved",
   "added": "2026-11-04",
   "credits": 0,
   "note": "The Mirror Flat road from straight above: polished slate-lavender with a soft brushed shine and tiny sparkles, darker than the white mirror ground so the road stands out (glowing lane lines and boost pads are drawn by the game). Tiles with no seams. The game rotates it so the shine runs along the road rather than reading as rain.",
@@ -316,7 +316,7 @@
  {
   "id": "tex-rock-cliff",
   "name": "Cliff Temple rock wall",
-  "status": "waiting",
+  "status": "approved",
   "added": "2026-11-04",
   "credits": 0,
   "note": "Rock for the code-built cliffs of Cliff Temple: rounded tan-grey slabs with dark cracks and bright green moss, in the comic-book style of the stage art. Tiles cleanly, but the repeat is visible in the 3\u00d73 view, so the cliffs use it at a large size. A little warmer than the greyer stage cliffs; a tint can match it.",
