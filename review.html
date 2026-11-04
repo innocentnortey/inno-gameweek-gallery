@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#ffd23f">
+<title>Review queue</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#fff6dc;--panel:#fff;--ink:#141218;--soft:#4a4558;--yellow:#ffd23f;--red:#e8414b;--blue:#2b6fe0;--dot:rgba(20,18,24,.09)}
+@media (prefers-color-scheme:dark){:root{--paper:#17152b;--panel:#242140;--ink:#f6efdc;--soft:#c9c2dc;--dot:rgba(246,239,220,.07)}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);background-image:radial-gradient(var(--dot) 1.3px,transparent 1.6px);background-size:14px 14px;color:var(--ink);font:17px/1.45 "Comic Neue","Trebuchet MS",system-ui,sans-serif}
+.wrap{max-width:900px;margin:0 auto;padding:0 max(12px,env(safe-area-inset-left)) 40px max(12px,env(safe-area-inset-right))}
+h1,h2{font-family:"Bangers","Impact","Arial Black",sans-serif;letter-spacing:.04em;font-weight:400;margin:0;line-height:1.05}
+header{margin:14px 0;border:4px solid var(--ink);background:var(--yellow);color:#141218;padding:12px 14px;box-shadow:5px 5px 0 var(--ink)}
+header h1{font-size:clamp(30px,8vw,48px)}
+header p{margin:4px 0 0;font-weight:700}
+.back{display:inline-flex;align-items:center;min-height:44px;margin-top:8px;padding:0 14px;border:3px solid #141218;border-radius:999px;background:#fff;color:#141218;font-weight:700;text-decoration:none}
+.back:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+.how{border:3px dashed var(--ink);padding:8px 12px;font-weight:700;margin-bottom:18px}
+.item{margin:0 0 22px;border:4px solid var(--ink);background:var(--panel);box-shadow:5px 5px 0 var(--ink);overflow:hidden}
+.item>h2{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;justify-content:space-between;padding:8px 14px;border-bottom:4px solid var(--ink);background:var(--red);color:#fff;font-size:clamp(24px,6.4vw,34px)}
+.tag{font:700 14px "Comic Neue",sans-serif;letter-spacing:.04em;text-transform:uppercase;border:3px solid #141218;border-radius:999px;background:#fff4b8;color:#141218;padding:2px 10px}
+.body{padding:12px 14px;display:grid;gap:10px}
+.body p{margin:0}
+.pics{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(min(100%,190px),1fr))}
+figure{margin:0;border:3px solid var(--ink);background:#fff}
+figure img{display:block;width:100%;height:auto}
+figcaption{padding:4px 10px;font-family:"Bangers","Impact",sans-serif;letter-spacing:.05em;font-size:18px;border-top:3px solid var(--ink);background:var(--panel)}
+.meta{color:var(--soft);font-weight:700;font-size:15px}
+.empty{border:3px dashed var(--ink);padding:14px;font-weight:700}
+footer{font-size:13px;color:var(--soft);margin-top:18px}
+</style>
+</head>
+<body>
+<main class="wrap">
+<header><h1>REVIEW QUEUE</h1><p>Turnaround images waiting for a yes before they go to 3D. This page is kept up to date.</p><a class="back" href="./">← 3D gallery</a></header>
+<p class="how">Each card shows the 2D art and the front, side and back views. Tell Innocent yes or no, or what to change. Only approved cards go to Meshy (3D).</p>
+<section id="list" aria-live="polite"><p class="empty">Loading the queue…</p></section>
+<footer>Statuses: <b>Waiting for your yes</b> · <b>Approved, going to 3D</b> · <b>Redo requested</b> · <b>In the 3D gallery</b>.</footer>
+</main>
+<script>
+(async function(){
+  const list=document.getElementById('list');
+  const LABEL={waiting:'Waiting for your yes',approved:'Approved, going to 3D',redo:'Redo requested',done:'In the 3D gallery'};
+  try{
+    const items=await (await fetch('review.json',{cache:'no-store'})).json();
+    const open=items.filter(i=>i.status!=='done');
+    list.textContent='';
+    if(!open.length){list.innerHTML='<p class="empty">The queue is empty: everything so far is in the 3D gallery. New turnarounds appear here before any 3D credits are spent.</p>';return;}
+    open.forEach(i=>{
+      const s=document.createElement('article');s.className='item';
+      const h=document.createElement('h2');h.append(i.name);
+      const t=document.createElement('span');t.className='tag';t.textContent=LABEL[i.status]||i.status;h.append(t);
+      const b=document.createElement('div');b.className='body';
+      const p=document.createElement('p');p.textContent=i.note;
+      const m=document.createElement('p');m.className='meta';m.textContent='Added '+i.added+' · 3D costs '+i.credits+' credits';
+      const g=document.createElement('div');g.className='pics';
+      i.views.forEach(([l,src])=>{const f=document.createElement('figure'),im=document.createElement('img'),c=document.createElement('figcaption');
+        im.src=src;im.alt=i.name+', '+l+' view';im.loading='lazy';c.textContent=l;f.append(im,c);g.append(f);});
+      b.append(p,g,m);s.append(h,b);list.append(s);
+    });
+  }catch(e){list.innerHTML='<p class="empty">The queue could not load. Refresh the page; if it still fails, tell Innocent.</p>';}
+})();
+</script>
+</body>
+</html>
