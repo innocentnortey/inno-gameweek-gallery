@@ -508,5 +508,27 @@
     "review/cloud-vent-in-game/mirror-flat-3-on.jpg?v=1"
    ]
   ]
+ },
+ {
+  "id": "icons-ultimates",
+  "name": "Ultimate icons (the ability icons, evolved)",
+  "status": "waiting",
+  "added": "2026-11-05",
+  "credits": 0,
+  "note": "Six HUD icons for the ultimates: Sky Dragon, Hyperdrive, Earthquake, Grand Rail, Tornado and Mega Puff. Each was drawn from that racer's approved ability icon, so it keeps the same subject but bigger, with a gold rim, sparkles and a glow. When a racer's meter fills (2 duel wins), the ability button swaps to this icon and gets a turning gold halo, on desktop and on the phone button. Checked at 48 px and in a real race. Already in the game; say redo for any you want changed.",
+  "views": [
+   [
+    "Ability (top) and ultimate (bottom)",
+    "review/icons-ultimates/pairs.jpg?v=1"
+   ],
+   [
+    "In a race: the ring, ultimate ready",
+    "review/icons-ultimates/desktop-ring.jpg?v=1"
+   ],
+   [
+    "Phone held sideways: the button",
+    "review/icons-ultimates/phone-button.jpg?v=1"
+   ]
+  ]
  }
 ]
