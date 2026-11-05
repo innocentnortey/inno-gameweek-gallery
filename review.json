@@ -370,5 +370,27 @@
     "review/logo/logo-small.jpg?v=1"
    ]
   ]
+ },
+ {
+  "id": "cloud-vent",
+  "name": "Cloud Dragon's cloud vent (track feature)",
+  "status": "waiting",
+  "added": "2026-11-05",
+  "credits": 0,
+  "note": "How Cloud Dragon's vent lane should look in the game (today it is a pale blue strip with glassy columns). A: a fluffy cloud carpet in his curly cloud style, a low cloud arch at the entrance, a two-dragon emblem on the road, puffs only along the edges. B: a flowing cloud river with puffing vents and dragon-head cloud pillars at the entrance; ignore the karts (the generator added them; racers never ride karts), judge the lane and pillars only. Recommended: A's carpet and edges, optionally B's dragon pillars as the entrance. About 5 cents of image generation.",
+  "views": [
+   [
+    "Today in the game",
+    "review/cloud-vent/current.jpg?v=1"
+   ],
+   [
+    "A: cloud carpet + arch",
+    "review/cloud-vent/concept-a.jpg?v=1"
+   ],
+   [
+    "B: cloud river + dragon pillars",
+    "review/cloud-vent/concept-b.jpg?v=1"
+   ]
+  ]
  }
 ]
