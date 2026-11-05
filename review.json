@@ -374,10 +374,10 @@
  {
   "id": "cloud-vent",
   "name": "Cloud Dragon's cloud vent (track feature)",
-  "status": "waiting",
+  "status": "approved",
   "added": "2026-11-05",
   "credits": 0,
-  "note": "How Cloud Dragon's vent lane should look in the game (today it is a pale blue strip with glassy columns). A: a fluffy cloud carpet in his curly cloud style, a low cloud arch at the entrance, a two-dragon emblem on the road, puffs only along the edges. B: a flowing cloud river with puffing vents and dragon-head cloud pillars at the entrance; ignore the karts (the generator added them; racers never ride karts), judge the lane and pillars only. Recommended: A's carpet and edges, optionally B's dragon pillars as the entrance. About 5 cents of image generation.",
+  "note": "How Cloud Dragon's vent lane should look in the game (today it is a pale blue strip with glassy columns). A: a fluffy cloud carpet in his curly cloud style, a low cloud arch at the entrance, a two-dragon emblem on the road, puffs only along the edges. B: a flowing cloud river with puffing vents and dragon-head cloud pillars at the entrance; ignore the karts (the generator added them; racers never ride karts), judge the lane and pillars only. Recommended: A's carpet and edges, optionally B's dragon pillars as the entrance. About 5 cents of image generation. Innocent chose A (2026-11-05).",
   "views": [
    [
     "Today in the game",
@@ -396,7 +396,7 @@
  {
   "id": "icons-powers",
   "name": "Power icons (six)",
-  "status": "waiting",
+  "status": "approved",
   "added": "2026-11-05",
   "credits": 0,
   "note": "Icons for the six power-ups, to replace the code-drawn placeholders: Sky Rocket, Spirit Snare (slow field), Boulder Toss, Thunder (hits the leader), Shield bubble and Grapple hook. Same style as the rock-paper-scissors icons: bold outline, glossy colours, transparent background, no text. Checked on a grey background at full size; they are not wired into the game yet. About 13 cents of image generation.",
@@ -430,7 +430,7 @@
  {
   "id": "icons-abilities",
   "name": "Racer ability icons (six)",
-  "status": "waiting",
+  "status": "approved",
   "added": "2026-11-05",
   "credits": 0,
   "note": "Icons for the six racer abilities: Cloud Dash (Cloud Dragon), Jet Burst (Spiral/Turbo Jet), Stampede (Centaur Bull), Rail Snap (Rocket-Skate on a guardrail), Gust (Wind Ball) and Puff Hop (Pink Puff). Same style as the rock-paper-scissors icons, transparent background, no text. Gust was redrawn once because the first try put an orange rock in the ring. Not wired into the game yet. About 15 cents of image generation.",
