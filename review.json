@@ -363,7 +363,7 @@
    ],
    [
     "Logo on title art",
-    "review/logo/logo-on-title-art.jpg?v=2"
+    "review/logo/logo-on-title-art.jpg?v=3"
    ],
    [
     "Logo at small size",
@@ -458,6 +458,24 @@
    [
     "Puff Hop",
     "review/icons-abilities/puff-hop.png?v=1"
+   ]
+  ]
+ },
+ {
+  "id": "title-art-v2",
+  "name": "Title art: four racers with Skater girl",
+  "status": "waiting",
+  "added": "2026-11-05",
+  "credits": 0,
+  "note": "Innocent's ask (2026-11-05): the title screen keeps four racers, but Pink Puff is replaced by the Skater girl (the Rocket-Skate rider) on her rocket inline skates. She matches her drawing: dark brown skin, five bantu-knot buns with orange ties and cornrows, orange puffer jacket with pink and cream stripes, brown cargo pants, orange-and-pink skates. Cloud Dragon, Spiral (black hair) and Centaur Bull are unchanged, the sky at the top is still clear for the logo, and the picture has no text. Checked against each reference. This replaces the live public/ui/title-art.webp in the game; the logo-on-title-art view in the Logo row was refreshed with this picture too. Three versions were made; the other two (a reaching pose and a diving pose) were kept as rejects.",
+  "views": [
+   [
+    "Old title art (Pink Puff)",
+    "review/title-art-v2/old.jpg?v=1"
+   ],
+   [
+    "New title art (Skater girl)",
+    "review/title-art-v2/new.jpg?v=1"
    ]
   ]
  }
