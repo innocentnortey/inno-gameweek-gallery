@@ -478,5 +478,35 @@
     "review/title-art-v2/new.jpg?v=1"
    ]
   ]
+ },
+ {
+  "id": "cloud-vent-in-game",
+  "name": "Cloud vent look A in the game",
+  "status": "approved",
+  "added": "2026-11-05",
+  "credits": 0,
+  "note": "Innocent chose look A on 2026-11-05 and it is built. Three AI textures: a seamless cloud carpet (512 px) that drifts forward 3x faster, a soft cloud puff sprite (256 px) used for the edge puffs and entrance arch, and a two-headed cloud dragon emblem (512 px) painted on the road. Cloud Dragon rises 0.3 m on it. The two screenshots show it in game on Cliff Temple (near) and Mirror Flat (riding on it).",
+  "views": [
+   [
+    "Carpet texture (2x2 tiling)",
+    "review/cloud-vent-in-game/carpet-2x2.jpg?v=1"
+   ],
+   [
+    "Puff sprite (on magenta)",
+    "review/cloud-vent-in-game/puff-on-magenta.jpg?v=1"
+   ],
+   [
+    "Emblem (on magenta)",
+    "review/cloud-vent-in-game/emblem-on-magenta.jpg?v=1"
+   ],
+   [
+    "In game: Cliff Temple, near the vent",
+    "review/cloud-vent-in-game/cliff-temple-2-near.jpg?v=1"
+   ],
+   [
+    "In game: Mirror Flat, on the vent",
+    "review/cloud-vent-in-game/mirror-flat-3-on.jpg?v=1"
+   ]
+  ]
  }
 ]
