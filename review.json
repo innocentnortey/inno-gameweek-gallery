@@ -286,7 +286,7 @@
     "review/tex-road-cliff-temple/texture.jpg?v=1"
    ],
    [
-    "Tiled 3×3",
+    "Tiled 3\u00d73",
     "review/tex-road-cliff-temple/tiled.jpg?v=1"
    ]
   ]
@@ -308,7 +308,7 @@
     "review/tex-road-mirror-flat/texture.jpg?v=1"
    ],
    [
-    "Tiled 3×3",
+    "Tiled 3\u00d73",
     "review/tex-road-mirror-flat/tiled.jpg?v=1"
    ]
   ]
@@ -319,7 +319,7 @@
   "status": "approved",
   "added": "2026-11-04",
   "credits": 0,
-  "note": "Rock for the code-built cliffs of Cliff Temple: rounded tan-grey slabs with dark cracks and bright green moss, in the comic-book style of the stage art. Tiles cleanly, but the repeat is visible in the 3×3 view, so the cliffs use it at a large size. A little warmer than the greyer stage cliffs; a tint can match it.",
+  "note": "Rock for the code-built cliffs of Cliff Temple: rounded tan-grey slabs with dark cracks and bright green moss, in the comic-book style of the stage art. Tiles cleanly, but the repeat is visible in the 3\u00d73 view, so the cliffs use it at a large size. A little warmer than the greyer stage cliffs; a tint can match it.",
   "views": [
    [
     "2D source",
@@ -330,7 +330,7 @@
     "review/tex-rock-cliff/texture.jpg?v=1"
    ],
    [
-    "Tiled 3×3",
+    "Tiled 3\u00d73",
     "review/tex-rock-cliff/tiled.jpg?v=1"
    ]
   ]
@@ -528,6 +528,58 @@
    [
     "Phone held sideways: the button",
     "review/icons-ultimates/phone-button.jpg?v=1"
+   ]
+  ]
+ },
+ {
+  "id": "twintelle",
+  "name": "Twintelle",
+  "status": "waiting",
+  "added": "2026-11-05",
+  "credits": 35,
+  "note": "Proposed new racer from the fan vote. New original 2D design in the game style (the vote art was a glossy render): short cream-white hair, orange-tinted sunglasses, teal vest, navy cargo trousers with a coral stripe, and two giant coral-and-cream spring curls that are part of her body. She bounds along on the curls in the race. Claude checked all three views against the drawing: same outfit and skin, curls connected and not touching the floor or arms, same pose. One model.",
+  "views": [
+   [
+    "2D source",
+    "review/twintelle/source.jpg?v=1"
+   ],
+   [
+    "Front",
+    "review/twintelle/front.jpg?v=1"
+   ],
+   [
+    "Side",
+    "review/twintelle/side.jpg?v=1"
+   ],
+   [
+    "Back",
+    "review/twintelle/back.jpg?v=1"
+   ]
+  ]
+ },
+ {
+  "id": "storm",
+  "name": "Storm",
+  "status": "waiting",
+  "added": "2026-11-05",
+  "credits": 35,
+  "note": "Proposed new racer from the fan vote. New original 2D design in the game style: deep brown skin, long silver-white hair, pale-blue eyes, sky-blue and white flight suit with silver trim and a lightning emblem, indigo cape. She flies upright in the race; the lightning bolt under her feet is drawn in code later, so none is in these views. Claude checked all three views against the drawing: same suit, hair and cape, cape one connected sheet. One model.",
+  "views": [
+   [
+    "2D source",
+    "review/storm/source.jpg?v=1"
+   ],
+   [
+    "Front",
+    "review/storm/front.jpg?v=1"
+   ],
+   [
+    "Side",
+    "review/storm/side.jpg?v=1"
+   ],
+   [
+    "Back",
+    "review/storm/back.jpg?v=1"
    ]
   ]
  }
