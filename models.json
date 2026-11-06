@@ -1,5 +1,21 @@
 [
  {
+  "id": "twintelle",
+  "name": "Twintelle",
+  "kind": "Racer",
+  "file": "models/twintelle.glb",
+  "added": "2026-11-05",
+  "note": "Standing A-pose: short cream hair, orange sunglasses, teal zip vest, navy cargo trousers with coral side stripes, gold bracelets, white sneakers, and two giant coral-and-cream spring curls arching from her head. Her spring boots are left out because the game draws them. Her skin reads lighter and warmer than the drawing; the game can tint it back."
+ },
+ {
+  "id": "storm",
+  "name": "Storm",
+  "kind": "Racer",
+  "file": "models/storm.glb",
+  "added": "2026-11-05",
+  "note": "Standing A-pose: long silver-white hair, pale-blue eyes, sky-blue and white suit with a lightning emblem, white shoulder guards and cuffs, white boots with blue soles, and a long indigo cape with a white lining. The silver trim came out white. The lightning bolt under her feet is drawn in code later."
+ },
+ {
   "id": "rocket-skate-rider",
   "name": "Rocket-Skate Rider",
   "kind": "Racer",
