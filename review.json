@@ -582,5 +582,23 @@
     "review/storm/back.jpg?v=1"
    ]
   ]
+ },
+ {
+  "id": "icons-abilities-new",
+  "name": "Racer ability icons (Twintelle and Storm)",
+  "status": "waiting",
+  "added": "2026-11-05",
+  "credits": 0,
+  "note": "Icons for the two new racers: Curl Launch (Twintelle: a coral-and-cream coiled spring snapping around a curve, teal motion arcs) and Bolt Strike (Storm: a white-blue lightning bolt from a small indigo and sky-blue storm cloud). Same model, prompt template and look as the six approved ability icons, transparent background, no text. Three tries each; the clearest at 48 px was kept. Already in the game in place of the letter tiles; say redo for either. About 13 cents of image generation.",
+  "views": [
+   [
+    "Curl Launch",
+    "review/icons-abilities-new/curl-launch.png?v=1"
+   ],
+   [
+    "Bolt Strike",
+    "review/icons-abilities-new/bolt-strike.png?v=1"
+   ]
+  ]
  }
 ]
